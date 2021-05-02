@@ -18,5 +18,5 @@ for (i = 0; i < numberArr.length; i++) {
 
     }
     }
-    console.log("Нечетные " + one);
-    console.log("Четные " + zero);
+console.log("Нечетные " + one);
+console.log("Четные " + zero);
