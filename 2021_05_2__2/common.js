@@ -6,6 +6,6 @@ for ( var i = 0; i < 20; i++ ) {
 let searchMin =  Math.min.apply(null, numberArr);
 let searchMax =  Math.max.apply(null, numberArr);
 let searchResult = searchMax - searchMin;
-    console.log(searchMin);
-    console.log(searchMax);
-    console.log(searchResult);
+console.log(searchMin);
+console.log(searchMax);
+console.log(searchResult);
