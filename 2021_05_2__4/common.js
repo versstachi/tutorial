@@ -9,5 +9,5 @@ for (i = 0; i < numberArr.length; i++) {
    	iter = numberArr[i];
      iters = iters + iter; 
     } 
-    console.log(iters); 
-    console.log(iters/numberArr.length); 
+console.log(iters); 
+console.log(iters/numberArr.length); 
