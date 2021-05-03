@@ -42,9 +42,7 @@ false
 
 
 
-
-
-
+ 
 let quest1 = 0, quest2 = 0, quest3 = 0; 
 quest1 = prompt('Ты любишь загорать');
 quest2 = prompt('Ты любишь улыбаться?');
