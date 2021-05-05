@@ -1,4 +1,3 @@
-
 true && ( 2<1 || !true ) || !( 3 === 4 || true || false && true) && 2===2
 
 1. 
@@ -22,22 +21,32 @@ false || !( 3 === 4 || true || false && true) && 2===2
 7. 
 false || !( false || true || false && true) && 2===2
 
+
 8. 
-false || !( false || true || false) && 2===2
+false || !( true || false && true) && 2===2
 
 9. 
-false || !( true || false) && 2===2
+false || !( true || false && true) && 2===2
 
 10. 
-false || !( true ) && 2===2
+false || !( true || false) && 2===2
 
 11. 
-false || false && true
+false || !( true) && 2===2
 
 12. 
-false || false
+false || !( true) && 2===2
 
 13. 
+false || false && 2===2
+
+14. 
+false || false
+
+15. 
+false || false
+
+15. 
 false
 
 
